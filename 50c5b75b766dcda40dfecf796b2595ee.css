@@ -1,0 +1,1 @@
+body{font-family:Roboto,sans-serif;color:#3a3a3a;background:oldlace;display:grid;grid-template-columns:repeat(8,1fr)}body>*{grid-column:2/-2}.chord-section{background:#ffdab9;padding:2em;border-radius:3px;text-align:center;grid-column:4/-4}.help-text{display:none}
