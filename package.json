@@ -1,0 +1,26 @@
+{
+  "name": "ks-guitar",
+  "version": "0.1.0",
+  "description": "Javascript guitar",
+  "main": "src/js/main.js",
+  "dependencies": {
+    "ks-guitar-synth": "^0.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "parcel-bundler": "^1.4.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "guitar",
+    "sound",
+    "karplus-strong",
+    "synthesizator"
+  ],
+  "author": "Jaakko Juvonen",
+  "license": "MIT"
+}
